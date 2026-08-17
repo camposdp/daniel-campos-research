@@ -1,8 +1,12 @@
 import type { MetadataRoute } from "next";
 
+const siteUrl = "https://camposdp.github.io/daniel-campos-research";
+
+export const dynamic = "force-static";
+
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: { userAgent: "*", allow: "/" },
-    sitemap: "https://daniel-campos-research.vercel.app/sitemap.xml",
+    sitemap: `${siteUrl}/sitemap.xml`,
   };
 }
