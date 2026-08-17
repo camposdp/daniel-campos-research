@@ -399,10 +399,10 @@ const researchIcons = {
 };
 
 const featureImages = [
-  { src: "/images/mes-fes-system.png", alt: "MES-FES wearable system architecture" },
-  { src: "/images/semg-quality.png", alt: "sEMG quality assessment results" },
-  { src: "/images/ruminant-sem.jpg", alt: "Wearable sEMG electrodes on a cow masseter" },
-  { src: "/images/spine-thermography.png", alt: "Spine thermography acquisition and regions of interest" },
+  { src: "/daniel-campos-research/images/mes-fes-system.png", alt: "MES-FES wearable system architecture" },
+  { src: "/daniel-campos-research/images/semg-quality.png", alt: "sEMG quality assessment results" },
+  { src: "/daniel-campos-research/images/ruminant-sem.jpg", alt: "Wearable sEMG electrodes on a cow masseter" },
+  { src: "/daniel-campos-research/images/spine-thermography.png", alt: "Spine thermography acquisition and regions of interest" },
 ];
 
 function SignalMark() {
@@ -483,7 +483,7 @@ export function ResearchSite() {
           </div>
           <div className="hero-visual">
             <div className="portrait-wrap">
-              <Image src="/images/daniel-campos.jpg" alt="Daniel Prado de Campos" fill priority sizes="(max-width: 800px) 88vw, 42vw" />
+              <Image src="/daniel-campos-research/images/daniel-campos.jpg" alt="Daniel Prado de Campos" fill priority sizes="(max-width: 800px) 88vw, 42vw" />
               <div className="portrait-grid" />
               <div className="signal-card">
                 <span>sEMG</span>
@@ -625,7 +625,7 @@ export function ResearchSite() {
         <section className="about section-pad" id="about">
           <div className="section-shell about-grid">
             <div className="about-portrait">
-              <Image src="/images/daniel-campos.jpg" alt="Daniel Prado de Campos" fill sizes="(max-width: 800px) 90vw, 36vw" />
+              <Image src="/daniel-campos-research/images/daniel-campos.jpg" alt="Daniel Prado de Campos" fill sizes="(max-width: 800px) 90vw, 36vw" />
               <div className="about-label"><SignalMark /><span>Biomedical<br />signal intelligence</span></div>
             </div>
             <div className="about-copy">
