@@ -12,6 +12,14 @@ export const metadata: Metadata = {
   description:
     "Research in wearable biomedical instrumentation, surface electromyography, assistive technology, precision livestock and medical thermography.",
   authors: [{ name: "Daniel Prado de Campos" }],
+  alternates: {
+    canonical: siteUrl,
+    languages: {
+      en: `${siteUrl}/?lang=en`,
+      "pt-BR": `${siteUrl}/?lang=pt`,
+      ja: `${siteUrl}/?lang=ja`,
+    },
+  },
   keywords: [
     "biomedical engineering",
     "surface electromyography",
@@ -28,7 +36,7 @@ export const metadata: Metadata = {
     description:
       "Biomedical signals transformed into wearable, assistive and data-driven systems.",
     type: "website",
-    images: [{ url: `${siteUrl}/images/daniel-campos.jpg`, width: 1080, height: 1080 }],
+    images: [{ url: `${siteUrl}/images/daniel-campos-speaking.jpg`, width: 1120, height: 1400 }],
   },
   robots: { index: true, follow: true },
 };
