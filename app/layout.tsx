@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     description:
       "Biomedical signals transformed into wearable, assistive and data-driven systems.",
     type: "website",
-    images: [{ url: `${siteUrl}/images/daniel-campos-speaking.jpg`, width: 1120, height: 1400 }],
+    images: [{ url: `${siteUrl}/images/daniel-campos-speaking.jpg`, width: 1600, height: 2000 }],
   },
   robots: { index: true, follow: true },
 };
