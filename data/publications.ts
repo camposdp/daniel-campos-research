@@ -267,9 +267,9 @@ export const publications: Publication[] = [
   },
 ];
 
-export const areas: Record<AreaId, { en: string; pt: string; color: string }> = {
-  semg: { en: "Wearable sEMG & neurorehabilitation", pt: "sEMG wearable e neurorreabilitação", color: "coral" },
-  livestock: { en: "Precision livestock & animal health", pt: "Pecuária de precisão e saúde animal", color: "lime" },
-  imaging: { en: "Medical imaging & thermography", pt: "Imagem médica e termografia", color: "blue" },
-  movement: { en: "Human movement & ergonomics", pt: "Movimento humano e ergonomia", color: "violet" },
+export const areas: Record<AreaId, { en: string; pt: string; ja: string; color: string }> = {
+  semg: { en: "Wearable sEMG & neurorehabilitation", pt: "sEMG wearable e neurorreabilitação", ja: "ウェアラブルsEMGと神経リハビリテーション", color: "coral" },
+  livestock: { en: "Precision livestock & animal health", pt: "Pecuária de precisão e saúde animal", ja: "精密畜産と動物の健康", color: "lime" },
+  imaging: { en: "Medical imaging & thermography", pt: "Imagem médica e termografia", ja: "医用画像とサーモグラフィ", color: "blue" },
+  movement: { en: "Human movement & ergonomics", pt: "Movimento humano e ergonomia", ja: "身体運動とエルゴノミクス", color: "violet" },
 };
